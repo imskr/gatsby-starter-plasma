@@ -1,4 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+# Gatsby Starter: Plasma
+
 <p align="center">
   <img src="images/plasma.png">
   </a>
