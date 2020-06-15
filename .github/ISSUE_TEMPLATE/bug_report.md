@@ -22,7 +22,7 @@ What should happen?
 
 What happened.
 
-## Environment:**
+## Environment:
  - OS: [e.g. iOS]
  - Browser: [e.g. chrome, safari]
  - Version: [e.g. 22]
