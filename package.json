@@ -20,7 +20,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "snyk": "^1.341.0"
+    "snyk": "^1.341.0",
+    "start-server-and-test": "^1.11.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -47,6 +48,7 @@
     "lint": "eslint ./src",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test:ci": "DETERMINISTIC=true start-server-and-test 8000",
     "snyk-protect": "snyk protect",
     "prepare": "yarn run snyk-protect"
   },
