@@ -47,7 +47,6 @@
     "serve": "gatsby serve",
     "lint": "eslint ./src",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "test:ci": "DETERMINISTIC=true start-server-and-test 8000",
     "snyk-protect": "snyk protect",
     "prepare": "yarn run snyk-protect"
