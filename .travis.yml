@@ -16,4 +16,3 @@ install:
 scripts:
     - yarn lint
     - yarn build
-    - yarn test:ci
