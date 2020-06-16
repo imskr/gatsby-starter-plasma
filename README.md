@@ -1,6 +1,7 @@
 # Gatsby Starter: Plasma
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3b9f5e87-65a7-4d76-b3a7-c55c416fa2b6/deploy-status)](https://app.netlify.com/sites/gatsby-starter-plasma/deploys)
+![Dependencies status](https://david-dm.org/imskr/gatsby-starter-plasma.svg)
 [![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
