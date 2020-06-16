@@ -1,5 +1,7 @@
 # Gatsby Starter: Plasma
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3b9f5e87-65a7-4d76-b3a7-c55c416fa2b6/deploy-status)](https://app.netlify.com/sites/gatsby-starter-plasma/deploys)
+
 <p align="center">
   <img src="images/plasma.png">
   </a>
