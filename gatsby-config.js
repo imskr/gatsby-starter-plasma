@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-percy`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
