@@ -1866,3 +1866,7 @@ patch:
         patched: '2020-06-15T11:39:42.757Z'
     - gatsby > gatsby-cli > gatsby-recipes > graphql-tools > @graphql-tools/relay-operation-optimizer > relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-06-15T11:39:42.757Z'
+    - start-server-and-test > wait-on > lodash:
+        patched: '2020-06-16T23:38:51.048Z'
+    - start-server-and-test > wait-on > request-promise-native > request-promise-core > lodash:
+        patched: '2020-06-16T23:38:51.048Z'
