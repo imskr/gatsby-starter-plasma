@@ -2,6 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3b9f5e87-65a7-4d76-b3a7-c55c416fa2b6/deploy-status)](https://app.netlify.com/sites/gatsby-starter-plasma/deploys)
 [![Travis (.com) branch](https://img.shields.io/travis/com/imskr/gatsby-starter-plasma/master)](https://travis-ci.com/github/imskr/gatsby-starter-plasma/builds)
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/SKR/gatsby-starter-plasma)
 ![Dependencies status](https://david-dm.org/imskr/gatsby-starter-plasma.svg)
 [![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
