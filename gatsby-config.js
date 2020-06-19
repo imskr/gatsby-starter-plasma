@@ -13,6 +13,25 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `MuseoModerno`
+        ],
+        display: `swap`,
+      },
+    },
+    {
+    	resolve: `gatsby-plugin-page-progress`,
+    	options: {
+    		height: 3,
+    		prependToBody: false,
+    		excludePaths: ['/blog'],
+    		color: `#f92672`,
+    	},
+    },
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-percy`,
     `gatsby-plugin-sharp`,
