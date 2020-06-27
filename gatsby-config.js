@@ -5,15 +5,15 @@ module.exports = {
     author: `@imskr`,
     menuLinks: [
       {
-        name: "home",
+        name: "Home",
         link: "/",
       },
       {
-        name: "about",
+        name: "About",
         link: "/about",
       },
       {
-        name: "page-2",
+        name: "Page-2",
         link: "/page-2",
       },
     ],
