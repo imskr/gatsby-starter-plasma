@@ -52,6 +52,7 @@ const Header = ({ siteTitle, menuLinks }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  menuLinks: PropTypes.arrayOf(PropTypes.object),
 }
 
 Header.defaultProps = {
