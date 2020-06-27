@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #21232d;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
