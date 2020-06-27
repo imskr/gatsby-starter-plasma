@@ -3,6 +3,20 @@ module.exports = {
     title: `Plasma`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@imskr`,
+    menuLinks: [
+      {
+        name: "home",
+        link: "/",
+      },
+      {
+        name: "about",
+        link: "/about",
+      },
+      {
+        name: "page-2",
+        link: "/page-2",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
