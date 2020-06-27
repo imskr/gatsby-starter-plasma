@@ -44,6 +44,7 @@ a {
   display: inline-block;
   position: relative;
   cursor: pointer;
+  color: #57c7ff;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
