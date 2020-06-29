@@ -31,15 +31,14 @@ module.exports = {
     `gatsby-plugin-percy`,
     `gatsby-plugin-sharp`,
     {
-    	resolve: `gatsby-plugin-page-progress`,
-    	options: {
-    		includePaths: ["/", { regex: "^/blog" }],
-      		excludePaths: [],
-      		height: 3,
-      		prependToBody: false,
-      		color: `#64ffda`,
-      		footerHeight: 500,
-    	},
+      resolve: `gatsby-plugin-page-progress`,
+      options: {
+        includePaths: ["/", { regex: "^/blog" }],
+        excludePaths: [],
+        height: 3,
+        prependToBody: false,
+        color: `#64ffda`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
