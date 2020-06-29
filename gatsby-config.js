@@ -1,8 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: `Plasma`,
+    title: `PLASMA`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@imskr`,
+    menuLinks: [
+      {
+        name: "Home",
+        link: "/",
+      },
+      {
+        name: "About",
+        link: "/about",
+      },
+      {
+        name: "Page-2",
+        link: "/page-2",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

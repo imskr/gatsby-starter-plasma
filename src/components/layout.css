@@ -5,8 +5,10 @@ html {
 }
 body {
   margin: 0;
+  background-color: #0a192f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 article,
 aside,
@@ -43,6 +45,7 @@ a {
   display: inline-block;
   position: relative;
   cursor: pointer;
+  color: #57c7ff;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -195,17 +198,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
-}
 img {
   max-width: 100%;
   margin-left: 0;
@@ -224,9 +216,9 @@ h1 {
   padding: 5px 15px;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-weight: normal;
+  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 51.957px;
+  font-size: 52px;
   line-height: 1.125;
   text-align: center;
 }
@@ -343,6 +335,7 @@ fieldset {
   margin-bottom: 1.45rem;
 }
 blockquote {
+  background-color: #f3f99d;
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
