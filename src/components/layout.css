@@ -10,16 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
+
+nav {
+}
+
 section,
 summary {
   display: block;
@@ -217,6 +211,7 @@ h1 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-weight: bold;
+  font-family: Inconsolata,Andale Mono,PT Mono,Courier New,monospace;
   text-rendering: optimizeLegibility;
   font-size: 52px;
   line-height: 1.125;
@@ -244,6 +239,17 @@ ul {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+}
+li {
+  & ol {
+    padding-bottom: 0;
+    padding-left: 1.82em;
+  }
+
+  & ul {
+    padding-bottom: 0;
+    padding-left: 1em;
+  }
 }
 ol {
   margin-left: 1.45rem;
@@ -398,49 +404,7 @@ address {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-b {
-  font-weight: bold;
-}
-strong {
-  font-weight: bold;
-}
-dt {
-  font-weight: bold;
-}
-th {
-  font-weight: bold;
-}
-li {
-  margin-bottom: calc(1.45rem / 2);
-}
-ol li {
-  padding-left: 0;
-}
-ul li {
-  padding-left: 0;
-}
-li > ol {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
-}
-li > ul {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
-}
-blockquote *:last-child {
-  margin-bottom: 0;
-}
-li *:last-child {
-  margin-bottom: 0;
-}
-p *:last-child {
-  margin-bottom: 0;
-}
-li > p {
-  margin-bottom: calc(1.45rem / 2);
-}
+
 code {
   font-size: 0.85rem;
   line-height: 1.45rem;
