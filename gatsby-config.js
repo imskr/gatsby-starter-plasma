@@ -1,20 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: `PLASMA`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Kick off your next, great Gatsby project with this plasma starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@imskr`,
     menuLinks: [
-      {
-        name: "Home",
-        link: "/",
-      },
       {
         name: "About",
         link: "/about",
       },
       {
-        name: "Page-2",
-        link: "/page-2",
+        name: "Blog",
+        link: "/blog",
+      },
+      {
+        name: "Newsletter",
+        link: "/subscribe",
       },
     ],
   },
@@ -31,13 +31,24 @@ module.exports = {
     `gatsby-plugin-percy`,
     `gatsby-plugin-sharp`,
     {
+    	resolve: `gatsby-plugin-page-progress`,
+    	options: {
+    		includePaths: ["/", { regex: "^/blog" }],
+      		excludePaths: [],
+      		height: 3,
+      		prependToBody: false,
+      		color: `#64ffda`,
+      		footerHeight: 500,
+    	},
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#64ffda`,
+        theme_color: `#64ffda`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
