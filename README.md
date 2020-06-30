@@ -6,6 +6,7 @@
 ![Dependencies status](https://david-dm.org/imskr/gatsby-starter-plasma.svg)
 [![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma?ref=badge_shield)
 
 <p align="center">
   <img src="images/plasma.png">
@@ -86,6 +87,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma?ref=badge_large)
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
@@ -93,4 +97,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
