@@ -3,9 +3,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3b9f5e87-65a7-4d76-b3a7-c55c416fa2b6/deploy-status)](https://app.netlify.com/sites/gatsby-starter-plasma/deploys)
 [![Travis (.com) branch](https://img.shields.io/travis/com/imskr/gatsby-starter-plasma/master)](https://travis-ci.com/github/imskr/gatsby-starter-plasma/builds)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/SKR/gatsby-starter-plasma)
-![Dependencies status](https://david-dm.org/imskr/gatsby-starter-plasma.svg)
 [![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma?ref=badge_shield)
 
 <p align="center">
   <img src="images/plasma.png">
@@ -86,11 +86,5 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-## 🎓 Learning Gatsby
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma?ref=badge_large)
