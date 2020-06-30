@@ -5,7 +5,6 @@
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/SKR/gatsby-starter-plasma)
 [![eslint](https://img.shields.io/badge/eslint-enabled-green.svg)](https://eslint.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma?ref=badge_shield)
 
 <p align="center">
   <img src="images/plasma.png">
@@ -85,6 +84,3 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
-
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimskr%2Fgatsby-starter-plasma?ref=badge_large)
