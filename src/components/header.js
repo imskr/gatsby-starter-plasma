@@ -22,6 +22,10 @@ const Header = ({ siteTitle, menuLinks }) => (
             textDecoration: `none`,
             padding: `5px 15px`,
             background: `#57c7ff`,
+            position: "absolute",
+            left: "50%",
+            top: "2%",
+            transform: "translate(-50%, -50%)",
           }}
         >
           {siteTitle}
@@ -35,7 +39,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 key={link.name}
                 style={{
                   listStyleType: `none`,
-                  padding: `1rem`,
+                  padding: `1.8rem`,
                 }}
               >
                 <Link style={{ color: `#57c7ff` }} to={link.link}>
