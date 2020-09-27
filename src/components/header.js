@@ -33,7 +33,16 @@ const Header = ({ siteTitle, menuLinks }) => (
       </h1>
       <div>
         <nav>
-          <ul style={{ display: "flex", flex: 1 }}>
+          <ul
+            style={{
+              display: "flex",
+              flex: 1,
+              position: "absolute",
+              left: "50%",
+              top: "8%",
+              transform: "translate(-50%, -50%)",
+            }}
+          >
             {menuLinks.map(link => (
               <li
                 key={link.name}
